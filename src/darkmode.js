@@ -1,15 +1,14 @@
+const body = document.querySelector("body");
+const toggle = document.getElementById("toggle");
+const dark = document.getElementById("dark");
+const light = document.getElementById("light");
 
-const body = document.querySelector('body');
-const toggle = document.getElementById('toggle');
-const dark = document.getElementById('dark');
-const light = document.getElementById('light');
-
-toggle.onclick = function(){
-    toggle.classList.toggle('active');
-    body.classList.toggle('active');
-    light.classList.toggle('active');
-    dark.classList.toggle('inactive');
-}
+toggle.onclick = function () {
+	toggle.classList.toggle("active");
+	body.classList.toggle("active");
+	light.classList.toggle("active");
+	dark.classList.toggle("inactive");
+};
 /*
 let lightMode = localStorage.getItem('active'); 
 
