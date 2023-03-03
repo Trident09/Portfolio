@@ -139,7 +139,7 @@ img.mode {
 	transition: 0.5s;
 }
 
-#dark.active {
+#dark.inactive {
 	height: 0%;
 }
 
