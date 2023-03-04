@@ -18,14 +18,16 @@ main {
 
 .info {
     width: 40%;
-    padding: 20px;
-    background: transparent;
-    border-radius: 5px;
+    padding: 0 50px;
+    background: #7f62f311;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .info h2 {
     color: #7f62f3;
-    font-size: 32px;
+    font-size: 72px;
     padding-bottom: 25px;
 }
 
