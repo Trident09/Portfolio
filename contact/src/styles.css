@@ -60,6 +60,10 @@ img.social {
     margin-bottom: 10px;
 }
 
+#honeypot {
+    display: none;
+}
+
 .container .row100 {
     position: relative;
     width: 100%;
