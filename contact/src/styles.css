@@ -1,176 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    background: #03080a; 
-    transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+	background: #03080a;
+	transition: 0.5s;
+	display: flex;
 }
 
 .info {
-    width: 40%;
-    padding: 0 50px;
-    background: #7f62f311;
-    border-radius: 10px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+	width: 40%;
+	padding: 0 50px;
+	background: #7f62f311;
+	border-radius: 10px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .info h2 {
-    color: #7f62f3;
-    font-size: 72px;
-    padding-bottom: 25px;
+	color: #7f62f3;
+	font-size: 72px;
+	padding-bottom: 25px;
 }
 
 .info h3 {
-    color: #7f62f3;
-    font-size:24px;
-    padding-bottom: 20px;
+	color: #7f62f3;
+	font-size: 24px;
+	padding-bottom: 20px;
 }
 
 div.information {
-    display: inline-block;
-    position: relative;
+	display: inline-block;
+	position: relative;
 }
 
 img.social {
-    border-radius: 2px;
-    cursor: pointer;
+	border-radius: 2px;
+	cursor: pointer;
 }
 
 .container {
-    width: 40%;
-    padding: 20px;
+	width: 40%;
+	padding: 20px;
 }
 
 .container h2 {
-    width: 100%;
-    color: #7f62f3;
-    font-size: 72px;
-    text-align: center;
-    margin-bottom: 10px;
+	width: 100%;
+	color: #7f62f3;
+	font-size: 72px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 #honeypot {
-    display: none;
+	display: none;
 }
 
 .container .row100 {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .container .row100 .col {
-    position: relative;
-    width: 100%;
-    padding: 0 10px;
-    margin: 30px 0 10px;
-    transition: 0.5s;
+	position: relative;
+	width: 100%;
+	padding: 0 10px;
+	margin: 30px 0 10px;
+	transition: 0.5s;
 }
 
 .container .row100 .inputBox {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    color: #7f62f3;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	color: #7f62f3;
 }
 
 .container .row100 .inputBox input,
 .container .row100 .inputBox.textarea textarea {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    box-shadow: none;
-    outline: none;
-    font-size: 18px;
-    padding: 0 10px;
-    z-index: 1;
-    color: #000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-shadow: none;
+	outline: none;
+	font-size: 18px;
+	padding: 0 10px;
+	z-index: 1;
+	color: #000;
 }
 
 .container .row100 .inputBox .text,
 .container .row100 .inputBox .number {
-    position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 40px;
-    font-size: 18px;
-    padding: 0 10px;
-    display: block;
-    transition: 0.5s;
-    pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 40px;
+	font-size: 18px;
+	padding: 0 10px;
+	display: block;
+	transition: 0.5s;
+	pointer-events: none;
 }
 
 .container .row100 .inputBox input:focus + .text,
 .container .row100 .inputBox input:valid + .text {
-    top: -35px;
-    left: -10px;
+	top: -35px;
+	left: -10px;
 }
 
 .container .row100 .inputBox .line {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: #7f62f3;
-    transition: 0.5s;
-    border-radius: 2px;
-    pointer-events: none;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #7f62f3;
+	transition: 0.5s;
+	border-radius: 2px;
+	pointer-events: none;
 }
 
 .container .row100 .inputBox input:focus ~ .line,
 .container .row100 .inputBox input:valid ~ .line {
-    height: 100%;
+	height: 100%;
 }
 
 .container .row100 .inputBox.textarea {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    padding: 0px 0;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding: 0px 0;
 }
 
 .container .row100 .inputBox.textarea textarea {
-    height: 100%;
-    resize: none;
+	height: 100%;
+	resize: none;
 }
 
 .container .row100 .inputBox textarea:focus + .text,
 .container .row100 .inputBox textarea:valid + .text {
-    top: -35px;
-    left: -10px;
+	top: -35px;
+	left: -10px;
 }
 
 .container .row100 .inputBox textarea:focus ~ .line,
 .container .row100 .inputBox textarea:valid ~ .line {
-    height: 100%;
+	height: 100%;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
-    display: none;
+	display: none;
 }
 
 input[type="submit"] {
-    width: 100%;
-    border: none;
-    padding: 7px 35px;
-    cursor: pointer;
-    outline: none;
-    background: #7f62f3;
-    color: #000;
-    font-size: 18px;
-    border-radius: 2px;
+	width: 100%;
+	border: none;
+	padding: 7px 35px;
+	cursor: pointer;
+	outline: none;
+	background: #7f62f3;
+	color: #000;
+	font-size: 18px;
+	border-radius: 2px;
 }
