@@ -12,23 +12,48 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    background: #03080a;
+    background: #03080a; 
     transition: 0.5s;
 }
 
-main.active {
-    background: #aaacb6;
+.info {
+    width: 40%;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.info h2 {
+    color: #7f62f3;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.info h3 {
+    color: #7f62f3;
+    font-size:24px;
+    padding-bottom: 20px;
+}
+
+div.information {
+    display: inline-block;
+    position: relative;
+}
+
+img.social {
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 .container {
-    width: 80%;
+    width: 40%;
     padding: 20px;
 }
 
 .container h2 {
     width: 100%;
     color: #7f62f3;
-    font-size: 36px;
+    font-size: 72px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -69,7 +94,8 @@ main.active {
     color: #000;
 }
 
-.container .row100 .inputBox .text {
+.container .row100 .inputBox .text,
+.container .row100 .inputBox .number {
     position: absolute;
     top: 0;
     left: 0;
@@ -127,7 +153,12 @@ main.active {
     height: 100%;
 }
 
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
 input[type="submit"] {
+    width: 100%;
     border: none;
     padding: 7px 35px;
     cursor: pointer;
