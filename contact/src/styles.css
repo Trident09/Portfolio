@@ -14,10 +14,10 @@ main {
 	min-height: 90vh;
 	background: #03080a;
 	transition: 0.5s;
-	display: flex;
 }
 
 .info {
+	position: relative;
 	width: 40%;
 	padding: 0 50px;
 	background: #7f62f311;
@@ -49,6 +49,7 @@ img.social {
 }
 
 .container {
+	position: relative;
 	width: 40%;
 	padding: 20px;
 }
