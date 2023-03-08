@@ -10,11 +10,18 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>CONTACT FORM : RUPAM</title>
+		<title>RUPAM BARUI : PORTFOLIO</title>
 		<link
 			rel="stylesheet"
 			type="text/css"
-			href="../src/navbar.css"
+			href="/src/navbar.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
 		/>
 		<link
 			rel="stylesheet"
@@ -24,51 +31,76 @@
 		<link
 			rel="apple-touch-icon"
 			sizes="180x180"
-			href="../images/favicon/apple-touch-icon.png"
+			href="/images/favicon/apple-touch-icon.png"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="../images/favicon/favicon-32x32.png"
+			href="/images/favicon/favicon-32x32.png"
 		/>
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="16x16"
-			href="../images/favicon/favicon-16x16.png"
+			href="/images/favicon/favicon-16x16.png"
 		/>
 		<link
 			rel="icon"
 			type="image/x-icon"
-			href="../images/favicon/favicon_ico"
+			href="/images/favicon/favicon.ico"
 		/>
 		<link
 			rel="manifest"
-			href="../images/favicon/site.webmanifest"
+			href="/images/favicon/site.webmanifest"
 		/>
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<a href="../index.html">
-					<img
-						class="logo"
-						src="../images/logo/wordmark.png"
-						alt="Rupam wordmark logo"
-					/>
-				</a>
-			</div>
 			<nav>
-				<ul class="links">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="../blog/blog.html">Blog</a></li>
-				</ul>
+				<div class="navbar">
+					<div class="logo">
+						<a
+							class="wordmark"
+							href="/index.html"
+						>
+							RUPAM BARUI
+						</a>
+					</div>
+					<ul class="links">
+						<li>
+							<a href="#">ABOUT</a>
+						</li>
+						<li>
+							<a href="#">SERVICES</a>
+						</li>
+						<li>
+							<a href="#">PORTFOLIO</a>
+						</li>
+						<li>
+							<a href="/blog/blog.html">BLOG</a>
+						</li>
+					</ul>
+					<div class="toggle_btn">
+						<i class="fa-solid fa-bars"></i>
+					</div>
+				</div>
+				<div class="dropdown_menu">
+					<li>
+						<a href="#">ABOUT</a>
+					</li>
+					<li>
+						<a href="#">SERVICES</a>
+					</li>
+					<li>
+						<a href="#">PORTFOLIO</a>
+					</li>
+					<li>
+						<a href="/blog/blog.html">BLOG</a>
+					</li>
+				</div>
 			</nav>
 		</header>
-
 		<main>
 			<div class="info">
 				<h2>...</h2>
@@ -239,7 +271,7 @@
 
 		<script
 			type="text/javascript"
-			src="../src/darkmode.js"
+			src="/src/navbar.js"
 		></script>
 	</body>
 </html>
