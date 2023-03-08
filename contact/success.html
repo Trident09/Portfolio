@@ -15,6 +15,13 @@
 			href="../src/navbar.css" />
 		<link
 			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
 			type="text/css"
 			href="src/success.css" />
 		<link
@@ -41,21 +48,48 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<a href="../index.html">
-					<img
-						class="logo"
-						src="../images/logo/wordmark.png"
-						alt="Rupam wordmark logo" />
-				</a>
-			</div>
 			<nav>
-				<ul class="links">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
+				<div class="navbar">
+					<div class="logo">
+						<a
+							class="wordmark"
+							href="../index.html"
+						>
+							RUPAM BARUI
+						</a>
+					</div>
+					<ul class="links">
+						<li>
+							<a href="#">ABOUT</a>
+						</li>
+						<li>
+							<a href="#">SERVICES</a>
+						</li>
+						<li>
+							<a href="#">PORTFOLIO</a>
+						</li>
+						<li>
+							<a href="../blog/blog.html">BLOG</a>
+						</li>
+					</ul>
+					<div class="toggle_btn">
+						<i class="fa-solid fa-bars"></i>
+					</div>
+				</div>
+				<div class="dropdown_menu">
+					<li>
+						<a href="#">ABOUT</a>
+					</li>
+					<li>
+						<a href="#">SERVICES</a>
+					</li>
+					<li>
+						<a href="#">PORTFOLIO</a>
+					</li>
+					<li>
+						<a href="../blog/blog.html">BLOG</a>
+					</li>
+				</div>
 			</nav>
 		</header>
 
